@@ -1,0 +1,21 @@
+{
+"id": "search1",
+    "meta": {
+        "label": "Google Search",
+        "description": "Search the web for relevant information to respond to queries with"
+    },
+    
+    "params" : [
+        {
+            "name": "cx",
+            "label": "Google CustomSearch cx id",
+            "type": "STRING"
+        },
+        {
+            "name": "google_search_api_connection",
+            "label": "Google API Connection",
+            "type": "PRESET",
+            "parameterSetId": "google-search-api-connection"
+        }
+    ]
+}

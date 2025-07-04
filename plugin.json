@@ -1,14 +1,14 @@
 {
-    "id": "servicenow",
-    "version": "0.0.9",
+    "id": "google-search-tool",
+    "version": "0.0.2",
+
     "meta": {
-        "label": "ServiceNow",
-        "description": "Retrieve ServiceNow tables into Dataiku / send incident reports",
-        "author": "Dataiku (Alex Bourret)",
-        "icon": "icon-ticket",
-        "tags": ["Connector", "Generative AI", "Agents", "Tools"],
-        "url": "https://www.dataiku.com/product/plugins/servicenow/",
-        "licenseInfo": "Apache Software License",
-        "supportLevel": "NOT_SUPPORTED"
+        "label": "Google Search Tool",
+        "description": "This plugin provides Google Search as an agent tool. Requires DSS 13.4 or above",
+        "author": "Dataiku",
+        "icon": "fas fa-search",
+        "tags": ["Generative AI", "Agents", "Tools", "Google", "API"],
+        "url": "https://doc.dataiku.com",
+        "licenseInfo": "Apache License 2.0"
     }
 }
